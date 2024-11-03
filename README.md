@@ -7,8 +7,8 @@ Gmail para el envío de correos electrónicos.
 
 - **Mensajería Mail:** Los usuarios pueden enviar correos electrónicos utilizando los servicios de Gmail.
 - **Formulario de Envío:** Interfaz amigable creada con Bootstrap para que los usuarios completen y envíen correos.
-- **Configuración de Credenciales:** Integración segura con las credenciales de Gmail configuradas como user secrets
-	en el proyecto.
+- **Configuración de Credenciales:** Integración segura con las credenciales de Gmail configuradas como user
+  secrets en el proyecto.
 - **Autenticación de Aplicación:** El Gmail utilizado debe tener una contraseña específica para aplicaciones.
 
 ### Tecnologías Utilizadas
