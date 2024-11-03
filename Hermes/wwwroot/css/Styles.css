@@ -1,0 +1,71 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  
+}
+
+body {
+  margin-bottom: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+}
+.card {
+    background-color: transparent;
+}
+.form-control {
+    padding: 0px;
+}
+
+h1 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    text-align: center;
+    margin: 16px;
+}
+
+input.form-control.rounded.border-0 {
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+    input.form-control.rounded.border-0:focus,
+    textarea.form-control.rounded:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+label.form-label {
+    margin: 0px;
+}
+
+textarea.form-control.rounded {
+    width: 300px;
+    height: 150px;
+    padding: 8px;
+}
+
+button.btn.rounded-pill {
+    background-color: #131939;
+    color: white;
+}
